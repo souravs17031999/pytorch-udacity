@@ -66,7 +66,7 @@ plt.show()
 
 # Activation (sigmoid) function
 def sigmoid(x):
-    return (1/1+np.exp(-x))
+    return (1/(1+np.exp(-x)))
 
 # Output (prediction) formula
 def output_formula(features, weights, bias):
