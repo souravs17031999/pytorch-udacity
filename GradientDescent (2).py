@@ -83,7 +83,7 @@ def update_weights(x, y, weights, bias, learnrate):
     output=output_formula(x,weights,bias)
     weights=weights+learnrate*(y-output)*x
     bias=bias+learnrate*(y-output)
-
+    return weights,bias
 
 # ## Training function
 # This function will help us iterate the gradient descent algorithm through all the data, for a number of epochs. It will also plot the data, and some of the boundary lines obtained as we run the algorithm.
