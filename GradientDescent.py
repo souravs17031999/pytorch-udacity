@@ -75,7 +75,7 @@ def output_formula(features, weights, bias):
 
 # Error (log-loss) formula
 def error_formula(y, output):
-    return -y*(np.log(output))-(1-y)*(np.log(1-output))
+    return -(y*(np.log(output)))-((1-y)*(np.log(1-output)))
     
 
 # Gradient descent step
@@ -84,6 +84,7 @@ def update_weights(x, y, weights, bias, learnrate):
     weights=weights+learnrate*(y-output)*x
     bias=bias+learnrate*(y-output)
     return weights,bias
+
 
 # ## Training function
 # This function will help us iterate the gradient descent algorithm through all the data, for a number of epochs. It will also plot the data, and some of the boundary lines obtained as we run the algorithm.
