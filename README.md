@@ -17,3 +17,5 @@ ONE OUTPUT LAYER CONTAINING 10 NEURONS
 INPUT- 1 LAYER CONTAINING 784 NEURONS
 1 HIDDEN LAYER CONTAINING 256 NEURONS
 1 OUTPUT LAYER CONTAINING 10 NEURONS.
+
+The lesson 4 module contains videos of neural networks into play for both of the above problems solved. [No optimization technique has been applied yet to the network]
