@@ -32,4 +32,5 @@ Then , we can finally use our model for inherence that is for making predictions
 
 "The lesson 4 module contains videos of neural networks into play for both of the above problems solved" 
 
+https://user-images.githubusercontent.com/33771969/50480811-382b0080-0a04-11e9-8e74-76f50ff9852a.jpeg
 
