@@ -7,7 +7,7 @@ and link to course - https://in.udacity.com/course/deep-learning-pytorch--ud188
 and other resources which are really helpful to learn are -
 https://airtable.com/shrwVC7gPOuTJkxW0/tblUf4zxlIMLjwrbv
 
-Two problems solved till now :
+Two problems solved using neural networks:
 * MNIST HANDWRITTEN DIGITS DATASET CLASSIFICATION PROBLEM - IN THIS WE ARE GIVEN 28\*28 GREY SCALE HANDWRITTEN IMAGES , 64 EXAMPLES AND WE ARE REQUIRED TO PREDICT THE DIGIT CORRECTLY BY FIRING AND ACTIVATING ONE OF THE NEURONS IN THE OUTPUT LAYER.
 INPUT- 1 LAYER CONTAINING 784 NEURONS 
 TWO HIDDEN LAYERS
@@ -32,7 +32,7 @@ Then , we can finally use our model for inherence that is for making predictions
 
 "The lesson 4 module contains videos of neural networks into play for both of the above problems solved" 
 
-<img>(https://user-images.githubusercontent.com/33771969/50480811-382b0080-0a04-11e9-8e74-76f50ff9852a.jpeg)</img>
+![neural networks](https://user-images.githubusercontent.com/33771969/50480811-382b0080-0a04-11e9-8e74-76f50ff9852a.jpeg)
 
 
 
