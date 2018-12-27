@@ -34,5 +34,12 @@ Then , we can finally use our model for inherence that is for making predictions
 
 ![neural networks](https://user-images.githubusercontent.com/33771969/50480811-382b0080-0a04-11e9-8e74-76f50ff9852a.jpeg)
 
+Now let's break the mysterious black box of neural networks using example of MNIST dataset example:
+* The idea is that we have 784 pixels of a image and each of 784 neurons in the input layer has some value (not necessarily same) which corresponds as 0 for black and 1 for white and others similarly from 0-1 depending on the contrast of pixels in the image.
+Now the hidden layers neurons checks for some of the features of the image by breaking it down on the level of small edges which also have some pixel values stored in them and we apply a tranformation (WX+b) from input to hidden which corresponds to some combination of pixel values that we identify from image input.
+Then in second hidden layer (if apply) we identify more of such features by applying another transformation and this goes on till the output layer which is the single neuron which makes final decision to predict the maximum probabilty of which of class it thinks our image belongs to.
+Now we have our labels (we assign 10 labels from 0-9 to each of the class ) already , so we compare them with predicted values and calculates the error and further same backpropogation with stochastic gradient descent is applied and we find and settle at a minimum for cost function.
+So , basically the transforms corresponds to some combination of pixels which in each layer fires the neurons in the next layer and goes on till output layer which finally combines the all features and predicts the class to which the image belongs may belong to.
 
+Deep learning is a experimental field and creating a deep learning model or a neural network architechture is a art which is to be practised a lot.
 
