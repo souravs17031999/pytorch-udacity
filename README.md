@@ -30,5 +30,6 @@ Now this is all called backpropogation in neural networking.
 After training the model over the training dataset , we set out to test our model against the a new dataset called validation dataset for comparing it with some new data.
 Then , we can finally use our model for inherence that is for making predictions over real-world dataset.
 
+"The lesson 4 module contains videos of neural networks into play for both of the above problems solved" 
 
-The lesson 4 module contains videos of neural networks into play for both of the above problems solved. 
+![alt text](souravs17031999.github.io\pytorch-udacity\1_DW0Ccmj1hZ0OvSXi7Kz5MQ.jpeg)
