@@ -32,4 +32,4 @@ Then , we can finally use our model for inherence that is for making predictions
 
 "The lesson 4 module contains videos of neural networks into play for both of the above problems solved" 
 
-![alt text](souravs17031999.github.io\pytorch-udacity\1_DW0Ccmj1hZ0OvSXi7Kz5MQ.jpeg)
+
