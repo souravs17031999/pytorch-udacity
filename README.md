@@ -7,13 +7,13 @@ and link to course - https://in.udacity.com/course/deep-learning-pytorch--ud188
 and other resources which are really helpful to learn are -
 https://airtable.com/shrwVC7gPOuTJkxW0/tblUf4zxlIMLjwrbv
 
-Two problems solved using neural networks:
-* MNIST HANDWRITTEN DIGITS DATASET CLASSIFICATION PROBLEM - IN THIS WE ARE GIVEN 28\*28 GREY SCALE HANDWRITTEN IMAGES , 64 EXAMPLES AND WE ARE REQUIRED TO PREDICT THE DIGIT CORRECTLY BY FIRING AND ACTIVATING ONE OF THE NEURONS IN THE OUTPUT LAYER.
+## Problems solved using neural networks:
+### MNIST HANDWRITTEN DIGITS DATASET CLASSIFICATION PROBLEM - IN THIS WE ARE GIVEN 28\*28 GREY SCALE HANDWRITTEN IMAGES , 64 EXAMPLES AND WE ARE REQUIRED TO PREDICT THE DIGIT CORRECTLY BY FIRING AND ACTIVATING ONE OF THE NEURONS IN THE OUTPUT LAYER.
 INPUT- 1 LAYER CONTAINING 784 NEURONS 
 TWO HIDDEN LAYERS
 ONE OUTPUT LAYER CONTAINING 10 NEURONS
 
-* FASHION-MNIST DATASET CLASSIFICATION PROBLEM - IN THIS WE ARE GIVEN 28\*28 GERY SCALE FASHION CLOTHING IMAGES , 64 EXAMPLES AND WE ARE REQUIRED TO CORRECTLY CLASSIFY AS ONE OF THE 10 CLASSES (ANKIE BOOT , BAGS , SHIRTS , TROUSERS ETC...).
+### FASHION-MNIST DATASET CLASSIFICATION PROBLEM - IN THIS WE ARE GIVEN 28\*28 GERY SCALE FASHION CLOTHING IMAGES , 64 EXAMPLES AND WE ARE REQUIRED TO CORRECTLY CLASSIFY AS ONE OF THE 10 CLASSES (ANKIE BOOT , BAGS , SHIRTS , TROUSERS ETC...).
 INPUT- 1 LAYER CONTAINING 784 NEURONS
 1 HIDDEN LAYER CONTAINING 256 NEURONS
 1 OUTPUT LAYER CONTAINING 10 NEURONS.
@@ -43,3 +43,11 @@ So , basically the transforms corresponds to some combination of pixels which in
 
 Deep learning is a experimental field and creating a deep learning model or a neural network architechture is a art which is to be practised a lot.
 
+### CAT_DOG CLASSIFIER WITH PRE-TRAINED MODEL - RESNET50
+This model required 2048 neurons as input and we need just 2 neurons in the output layer to classify the image as cat or dog.
+Then , we have 50 layers in total in this model and this model is taken torchvision package of pytorch.
+The model is trained from data from ImageNet.
+I made somechanges to classifier/fc (here) in this model and kept features parameters frozen (unchanged).
+The benefit is that we need not train the whole neural network from our side and only classifier(fc) has to be trained and we just need to pass in our dataset on classifier(fc) and then it predicts with higher accuracies as is shown in the notebook.
+For more info check out -
+https://pytorch.org/docs/stable/torchvision/models.html
