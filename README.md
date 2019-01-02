@@ -51,3 +51,9 @@ I made somechanges to classifier/fc (here) in this model and kept features param
 The benefit is that we need not train the whole neural network from our side and only classifier(fc) has to be trained and we just need to pass in our dataset on classifier(fc) and then it predicts with higher accuracies as is shown in the notebook.
 For more info check out -
 https://pytorch.org/docs/stable/torchvision/models.html
+
+### CIFAR 10 CLASSIFIER 
+USING TRANSFER LEARNING PRETRAINED MODEL RESNET152 AND CONVOLUTIONAL LAYERS IN USE.
+
+### FLOWER IMAGE CLASSIFIER
+USING TRANSFER LEARNING PRETRAINED MODEL RESNET152 AND CONVOLUTIONAL LAYERS IN USE.
